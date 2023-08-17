@@ -64,12 +64,31 @@ export const projectsData = [
   {
     title: "CorpComment",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    "Description of the project: \n- Produced dynamic web pages based on the design file from Figma \n- Built application programming interfaces (APIs) \nTechnologies used: \nReact, Next.js, TypeScript, TailwindCSS, Node.js, AWS",
+    tags: ["API", "JavaScript", "Web Development", "Figma", "Amazon Web Services", "Node.js", "Tailwind", "CSS", "TypeScript", "Next.js", "React"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Hypnotherapy app",
+    description:
+    "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["IOS", "Android", "Mobile App", "TypeScript", "JavaScript", "React Native", "Node.js"],
+    imageUrl: rmtdevImg,
+  },
+  {
+    title: "Booking Software",
+    description:
+    "This is a scheduling application. \n Mobile applications have been created using React Native for both iOS and Android platforms. The backend is built using NestJS and utilizes MongoDB. Web portals are developed using Next.js and styled components. The application is hosted on AWS EC2.", 
+    tags: ["Mobile App", "Android", "IOS", "Amazon Web Services", "MongoDB", "Node.js", "Next.js", "React Native", "React"],
+    imageUrl: wordanalyticsImg,
+  },
+
+
+
+
+
+  {
+    title: "Booking Software",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],

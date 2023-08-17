@@ -9,6 +9,8 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import MypPhoto from "./assets/photos/myPhoto.webp";
+
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://www.upwork.com/profile-portraits/c1Z683dX92kb-Z28Bqe5DCfchHTv9ZZBzCHySr150osHdeWhGn2q89Rx5GoDsFUWXI"
+              src={MypPhoto}
               alt="Makievuch portrait"
               width="192"
               height="192"
@@ -62,11 +64,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hello, I'm Andriy.</span> I'm a{" "}
+        <span className="font-bold"> Full-Stack Javascript Developer </span>with more{" "}
+        <span className="font-bold">than 6 years</span> of experience in Software Development.
+        My focus is {" "}
+        <span className="underline">React & React Native, Node.</span>
       </motion.h1>
 
       <motion.div
