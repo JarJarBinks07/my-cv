@@ -19,21 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      Starting in 2015, I proudly wore my graduation cap, symbolizing countless late-night coding sessions, tough algorithms, and breakthroughs. Equipped with a strong foundation, I ventured into the wide world of software development.Driven by a passion for both frontend and backend technologies, I explored the world of React.js, Angular.js, Node.js, and more. Embracing the mobile landscape, I mastered React Native to craft smooth experiences across different devices. In the realm of mobile apps, I rode alongside Android Studio and XCode, ensuring perfection with TestFlight and TestFairy.What sets me apart is more than just coding languages. I collaborate closely with clients, understanding their visions and needs to create solutions that match their dreams.
+
+      Here I standЧa Full-Stack Jedi, harmonizing logic, creativity, and collaboration. Each project adds to my journey, a testament to my endless pursuit of excellence. With every line of code, I leave my mark on the digital canvas, guiding others on their remarkable paths.
+    
       </p>
 
       <p>
