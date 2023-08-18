@@ -6,6 +6,15 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
+
+import CBT_IT from "../components/assets/photos/projects_photos/CBT_IT.png";
+import ICIT from "../components/assets/photos/projects_photos/ICIT.png";
+import iScape from "../components/assets/photos/projects_photos/iScape.png";
+import Mercari from "../components/assets/photos/projects_photos/Mercari.png";
+import Snapfood from "../components/assets/photos/projects_photos/Snapfood.png";
+import Hypnotherapy from "../components/assets/photos/projects_photos/Hypnotherapy.jpg";
+import CTIP from "../components/assets/photos/projects_photos/CTIP.jpg";
+
 export const links = [
   {
     name: "Home",
@@ -35,20 +44,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
+    title: "Front-end Developer",
     location: "Miami, FL",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 6 years of studying. I immediately found a job as a front-end developer in a local company.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2015",
   },
   {
-    title: "Front-End Developer",
+    title: "Full-Stack Developer",
     location: "Orlando, FL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 2 years, but i decided to move forward , and started to learn Back-end and React-Native. After 2 years i found a job as a Full-Stack Developer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2015 - 2020",
   },
   {
     title: "Full-Stack Developer",
@@ -62,65 +71,92 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CTIP",
     description:
-    "Description of the project: \n- Produced dynamic web pages based on the design file from Figma \n- Built application programming interfaces (APIs) \nTechnologies used: \nReact, Next.js, TypeScript, TailwindCSS, Node.js, AWS",
-    tags: ["API", "JavaScript", "Web Development", "Figma", "Amazon Web Services", "Node.js", "Tailwind", "CSS", "TypeScript", "Next.js", "React"],
-    imageUrl: corpcommentImg,
+    "Produced dynamic web pages based on the design file from Figma \n- Built application programming interfaces (APIs)",
+    tags: ["Amazon Web Services", "Node.js", "Tailwind", "CSS", "TypeScript", "Next.js",],
+    imageUrl: CTIP,
+    link: "https://www.ctipractices.com/",
   },
   {
-    title: "Hypnotherapy app",
+    title: "Clear Minds",
     description:
-    "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["IOS", "Android", "Mobile App", "TypeScript", "JavaScript", "React Native", "Node.js"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Booking Software",
-    description:
-    "This is a scheduling application. \n Mobile applications have been created using React Native for both iOS and Android platforms. The backend is built using NestJS and utilizes MongoDB. Web portals are developed using Next.js and styled components. The application is hosted on AWS EC2.", 
-    tags: ["Mobile App", "Android", "IOS", "Amazon Web Services", "MongoDB", "Node.js", "Next.js", "React Native", "React"],
-    imageUrl: wordanalyticsImg,
+    "Clear Minds is the perfect Hybrid app for beginners who starting their hypnotherapy journey. It has friendly user interface, and nice functional side.",
+    tags: ["Hybrid App", "TypeScript", "JavaScript", "React Native", "Node.js"],
+    imageUrl: Hypnotherapy,
+    link: "https://clearmindshypnotherapy.com/",
   },
 
-
-
-
-
   {
-    title: "Booking Software",
+    title: "CBT/IT Training Website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    "An enjoyable IT Educational project where I served as a Senior Front-End developer.",
+    tags: ["React", "TypeScript", "Next.js", "AWS", "Next.js"],
+    imageUrl: CBT_IT,
+    link: "https://www.cbtnuggets.com/",
   },
   {
-    title: "Word Analytics",
+    title: "Snapfood",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    "I've worked with RESTful architecture, React Native, Firebase for backend, and TypeScript/JavaScript.",
+    tags: ["React", "TypeScript", "Hybrid App Development", "React Native", "Firebase"],
+    imageUrl: Snapfood,
+    link: "https://bit.ly/Snapfoodd",
+  },
+
+  {
+    title: "Mercari",
+    description:
+    "Mercari is a huge project where I was developing an online marketplace platform as a part of a big team.",
+    tags: ["HTML5", "JavaScript", "MongoDB", "CSS", "Next.js", "Bootstrap", "ExpressJS"],
+    imageUrl: Mercari,
+    link: "https://www.mercari.com/",
+  },
+  {
+    title: "iScape",
+    description:
+    "My biggest and most significant project.\n 400k+ Downloads on Appstore and Google Play.",
+    tags: ["Hybrid App Development", "React", "React Native", "Twilio", "AWS", "Firebase", "Node.js"],
+    imageUrl: iScape,
+    link: "https://www.iscapeit.com",
+  },
+  {
+    title: "ICIT",
+    description:
+      "Made visual design, animations,feedback system and tailor-made email alerts.",
+    tags: ["HTML5", "React", "CSS", "JavaScript", "Bootstrap", "Express"],
+    imageUrl: ICIT,
+    link: "https://landing-pages.icit-corp.com/",
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "SaaS",
+  "BootStrap",
   "JavaScript",
   "TypeScript",
   "React",
+  "Angular",
   "Next.js",
+  "Nest.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
+  "Redux-toolkit",
   "GraphQL",
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "SQL",
   "Framer Motion",
+  "Rest-full API",
+  "API integration",
+  "Charts",
+  "AWS",
+  "Firebase",
 ] as const;
